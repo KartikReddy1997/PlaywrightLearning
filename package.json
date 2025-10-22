@@ -5,7 +5,16 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
-    "@types/node": "^24.8.1"
+    "@types/node": "^24.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
-  "scripts": {}
+  "scripts": {
+    "test-base": "npx playwright test && npx playwright show-report",
+    "bdd-test": "npx @cucumber/cucumber --tags '@test'",     
+    "test": "npx playwright test",             
+    "bdd": "npx @cucumber/cucumber -p default --tags \"@test\""
+
+
+  }
 }
