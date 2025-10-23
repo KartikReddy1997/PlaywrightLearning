@@ -1,0 +1,15 @@
+{
+  "cucumberautocomplete.steps": [
+    "tests/steps/*.ts",
+    "tests/steps/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "tests/features/*feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "cucumberautocomplete.onTypeFormat": true
+}
